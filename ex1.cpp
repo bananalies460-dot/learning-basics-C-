@@ -1,0 +1,15 @@
+#include <iostream> 
+int main() {
+    int x = 12;
+    int y = 13;
+    int z = 14; 
+    int c;
+    c=x;
+    x=y;
+    y=z;
+    z=c;
+    std::cout << "x = "<< x;
+    std::cout << " y = " << y;
+    std::cout << " z = " << z;
+    return 0;
+}
