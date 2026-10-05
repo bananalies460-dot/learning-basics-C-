@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() { 
+    double sales= 0;
+    double statetax;
+    double countytax;
+    double totaltax;
+    double netsales;
+    cout << "enter the sales number: ";
+    cin >> sales; 
+    statetax= (sales * 4)/100;
+    countytax= (sales * 2)/100;
+    totaltax= countytax + statetax;
+    netsales= sales- totaltax;
+    cout<< "sales =  $"<< sales << endl 
+        << "state tax =  $"<< statetax << endl
+        << "county tax = $"<< countytax << endl
+        << "total tax = $" << totaltax << endl
+        << "net sales = $" << netsales;
+    return 0;
+
+
+}
