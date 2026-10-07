@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+    double areaC;
+    double radius;
+    cout << "enter the radius of the circle : ";
+    cin >> radius;
+    areaC = (3.14) * pow(radius, 2);
+    cout << "the area of the circle is: " << areaC << endl;
+return 0;
+
+}
